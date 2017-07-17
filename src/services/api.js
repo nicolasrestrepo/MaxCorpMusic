@@ -1,0 +1,4 @@
+maxCorpMusic
+API key	44cbbfd62b76eac26c347ade90d1abaf
+Shared secret	8b6a5e2f442bd1fb879bc64f0f2ccc93
+Registered to	nicolasr34
