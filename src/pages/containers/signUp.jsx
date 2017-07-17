@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { firebaseApp } from '../services/firebase';
+import { firebaseApp } from '../../services/firebase';
 
 class SignUp extends Component {
 
@@ -23,7 +23,7 @@ class SignUp extends Component {
             this.setState({error})
         })
     }
-
+    
     render() {
         return (
             <div className="form-inline" style={{margin: '5%'}}>
@@ -33,13 +33,13 @@ class SignUp extends Component {
                         className="form-control"
                         placeholder="email"
                         type="text"
-                        onChange={event => this.setState({email: event.target.value})}
+                        onChange={event => this.setState({ email: event.target.value})}
                     />
                     <input
                         className="form-control"
                         placeholder="password"
                         type="password"
-                        onChange={event => this.setState({password: event.target.value})}
+                        onChange={event => this.setState({ password: event.target.value})}
                     />
                     <button 
                     className="btn btn-primary"

@@ -2,13 +2,13 @@ import * as firebase from 'firebase'
 
 
 var config = {
-    apiKey: "AIzaSyCRkXIzNWbmQ7FtshiD8j7HaiWJrLm4NsM",
-    authDomain: "goals-1d066.firebaseapp.com",
-    databaseURL: "https://goals-1d066.firebaseio.com",
-    projectId: "goals-1d066",
-    storageBucket: "goals-1d066.appspot.com",
-    messagingSenderId: "704140330283"
-  }
+    apiKey: "AIzaSyCwK3FhlVz3CS8RTOhIEqZ7p6mc8pd3JTU",
+    authDomain: "maxcorpmusic.firebaseapp.com",
+    databaseURL: "https://maxcorpmusic.firebaseio.com",
+    projectId: "maxcorpmusic",
+    storageBucket: "maxcorpmusic.appspot.com",
+    messagingSenderId: "104811422689"
+  };
 
   export const firebaseApp = firebase.initializeApp(config)
 

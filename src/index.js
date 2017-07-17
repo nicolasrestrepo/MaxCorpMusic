@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/app';
+import App from './pages/containers/app';
 import {BrowserRouter as Router ,Route, Switch} from 'react-router-dom';
 import createBrowserHistory from 'history/createBrowserHistory'
 //redux
@@ -10,8 +10,8 @@ import store from './store'
 //services
 import { firebaseApp } from './services/firebase';
 //components
-import SignIn from './components/signIn.jsx';
-import SignUp from './components/signUp.jsx';
+import SignIn from './pages/containers/signIn.jsx';
+import SignUp from './pages/containers/signUp.jsx';
 
 const customHistory = createBrowserHistory()
 

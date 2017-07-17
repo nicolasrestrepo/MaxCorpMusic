@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { firebaseApp } from '../services/firebase'
-
+import { firebaseApp } from '../../services/firebase'
+import { connect } from 'react-redux'
 class App extends Component{
 
     signOut(){
@@ -20,4 +20,9 @@ class App extends Component{
     }
 }
 
-export default App
+const mapStateToProps = (state) =>{
+    console.log('state in app', state)
+    return {}
+}
+
+export default connect (mapStateToProps)(App)
